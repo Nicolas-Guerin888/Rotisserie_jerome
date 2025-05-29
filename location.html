@@ -12,43 +12,44 @@
         <meta name="robots" content="index, follow">
         <!--Ajout de microdonnées-->
         <link rel="stylesheet" href="settings.css">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="location.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0f62163b16.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <hr>
-            <h1>Rotisserie ambulante à "Emplacement 1"</h1>
-            <h2>La rotisserie du pays royannais</h2>
-            <hr>
+            <hr class="banner_header-top">
+            <h1 class="text-preset-1"><span class="gold">R</span>otisserie <span class="gold">a</span>mbulante <br>à<br> "Emplacement 1"</h1>
+            <h2 class="text-preset-2">La rotisserie du pays royannais</h2>
+            <hr class="banner_header-bottom">
         </header>
         <main>
-            <section>
-                <h3>Mots clé de présentation</h3>
-                <p>J'ai le plaisir de vous retrouver à "Emplacement 1" 
+            <section class="presentation">
+                <h3 class="sr-only">Mots clé de présentation</h3>
+                <p class="text-preset-4">J'ai le plaisir de vous retrouver à "Emplacement 1" 
                     tous les "jours à définir", entre "horaireDébut" et "horaireFin"
                 </p>
             </section>
-            <section>
-                <h3>Map et adresse</h3>
+            <section class="map">
+                <h3 class="sr-only">Map et adresse</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88163.59915333096!2d-0.5437205161728746!3d46.32746119864165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807303211d686f5%3A0x405d39260e82ac0!2s79000%20Niort!5e0!3m2!1sfr!2sfr!4v1747245457278!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <Address>Adresse et horaire</Address>
+                <address class="text-preset-4">Adresse et horaire cliquable</address>
             </section>
-            <section>
-                <h3>Retour à l'accueil</h3>
-                <a href="index.html">Vous souhaitez en savoir ?</a>
+            <section class="picture">
+                <h3 class="sr-only">Retour à l'accueil</h3>
+                <a class="text-preset-2" href="index.html">Vous souhaitez en savoir plus ?</a>
                 <img src="https://placehold.co/1258x423/png" alt="">
             </section>
         </main>
+        <hr class="banner_footer-top">
         <footer>
-            <hr>
             <ul>
-                <li>Lien vers Réseau social 1</li>
-                <li>Lien vers réseau social 2</li>
+                <li><i class="fa-brands fa-square-facebook"></i></li>
+                <li><i class="fa-brands fa-square-x-twitter"></i></li>
             </ul>
-            <h4>©2025 - Site créé par Nicolas Guérin - Tous droits réservés</h4>
+            <h4 class="text-preset-4">©2025 - Site créé par Nicolas Guérin - Tous droits réservés</h4>
         </footer>
     </body>
 </html>
